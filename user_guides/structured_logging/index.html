@@ -9,21 +9,25 @@
       
       
       
+        <link rel="prev" href="../quick_start/">
       
       
-      <link rel="icon" href="../assets/images/favicon.png">
+        <link rel="next" href="../../reference/client/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.49">
     
     
       
-        <title>SUMMARY - notion-sdk-py</title>
+        <title>Structured logging - notion-sdk-py</title>
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.6f8fc17f.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.6f8fc17f.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -42,11 +46,11 @@
       
     
     
-      <link rel="stylesheet" href="../assets/_mkdocstrings.css">
+      <link rel="stylesheet" href="../../assets/_mkdocstrings.css">
     
-      <link rel="stylesheet" href="../extra.css">
+      <link rel="stylesheet" href="../../extra.css">
     
-    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -71,6 +75,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#structured-logging" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -83,7 +92,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href=".." title="notion-sdk-py" class="md-header__button md-logo" aria-label="notion-sdk-py" data-md-component="logo">
+    <a href="../.." title="notion-sdk-py" class="md-header__button md-logo" aria-label="notion-sdk-py" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -103,7 +112,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              SUMMARY
+              Structured logging
             
           </span>
         </div>
@@ -216,7 +225,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="notion-sdk-py" class="md-nav__button md-logo" aria-label="notion-sdk-py" data-md-component="logo">
+    <a href="../.." title="notion-sdk-py" class="md-nav__button md-logo" aria-label="notion-sdk-py" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -246,7 +255,7 @@
   
   
     <li class="md-nav__item">
-      <a href=".." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -263,8 +272,10 @@
       
   
   
+    
   
   
+  
     
     
       
@@ -277,11 +288,11 @@
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
@@ -295,7 +306,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             User guides
@@ -309,7 +320,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../user_guides/quick_start/" class="md-nav__link">
+      <a href="../quick_start/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -327,10 +338,19 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../user_guides/structured_logging/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -339,6 +359,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -424,7 +445,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../reference/client/" class="md-nav__link">
+      <a href="../../reference/client/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -445,7 +466,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../reference/api_endpoints/" class="md-nav__link">
+      <a href="../../reference/api_endpoints/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -466,7 +487,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../reference/errors/" class="md-nav__link">
+      <a href="../../reference/errors/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -487,7 +508,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../reference/helpers/" class="md-nav__link">
+      <a href="../../reference/helpers/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -556,7 +577,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../coverage/" class="md-nav__link">
+      <a href="../../coverage/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -577,7 +598,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../contributing/contributing/" class="md-nav__link">
+      <a href="../../contributing/contributing/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -605,7 +626,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../license/" class="md-nav__link">
+      <a href="../../license/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -635,6 +656,8 @@
   
   
   
+    
+  
   
 </nav>
                   </div>
@@ -649,31 +672,18 @@
                   
 
 
-  <h1>SUMMARY</h1>
+<h1 id="structured-logging">Structured logging</h1>
+<p>You can easily get structured logging with notion-sdk-py by using
+<a href="https://www.structlog.org/en/stable/index.html">structlog</a>:</p>
+<div class="highlight"><pre><span></span><code><span class="n">logger</span> <span class="o">=</span> <span class="n">structlog</span><span class="o">.</span><span class="n">wrap_logger</span><span class="p">(</span>
+    <span class="n">logging</span><span class="o">.</span><span class="n">getLogger</span><span class="p">(</span><span class="s2">&quot;notion-client&quot;</span><span class="p">),</span>
+    <span class="n">logger_factory</span><span class="o">=</span><span class="n">structlog</span><span class="o">.</span><span class="n">stdlib</span><span class="o">.</span><span class="n">LoggerFactory</span><span class="p">(),</span>
+    <span class="n">wrapper_class</span><span class="o">=</span><span class="n">structlog</span><span class="o">.</span><span class="n">stdlib</span><span class="o">.</span><span class="n">BoundLogger</span><span class="p">,</span>
+<span class="p">)</span>
 
-<!-- markdownlint-disable -->
-<ul>
-<li><a href="../">Home</a></li>
-<li>User guides<ul>
-<li><a href="../user_guides/quick_start/">Quick start</a></li>
-<li><a href="../user_guides/structured_logging/">Structured logging</a></li>
-<li><a href="https://github.com/ramnes/notion-sdk-py/tree/main/examples">More examples</a></li>
-</ul>
-</li>
-<li>Reference<ul>
-<li><a href="../reference/client/">Client</a></li>
-<li><a href="../reference/api_endpoints/">API endpoints</a></li>
-<li><a href="../reference/errors/">Errors</a></li>
-<li><a href="../reference/helpers/">Helpers</a></li>
-</ul>
-</li>
-<li>Development<ul>
-<li><a href="../coverage/">Coverage report</a></li>
-<li><a href="../contributing/contributing/">Contributing guidelines</a></li>
-</ul>
-</li>
-<li><a href="../license/">License</a></li>
-</ul>
+<span class="n">notion</span> <span class="o">=</span> <span class="n">Client</span><span class="p">(</span><span class="n">auth</span><span class="o">=</span><span class="n">token</span><span class="p">,</span> <span class="n">logger</span><span class="o">=</span><span class="n">logger</span><span class="p">,</span> <span class="n">log_level</span><span class="o">=</span><span class="n">logging</span><span class="o">.</span><span class="n">DEBUG</span><span class="p">)</span>
+</code></pre></div>
+<p>Don't forget to add the dependency to your project!</p>
 
 
 
@@ -735,10 +745,10 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "..", "features": ["naviagation.sections", "navigation.indexes"], "search": "../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["naviagation.sections", "navigation.indexes"], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../assets/javascripts/bundle.88dd0f4e.min.js"></script>
+      <script src="../../assets/javascripts/bundle.88dd0f4e.min.js"></script>
       
     
   </body>
